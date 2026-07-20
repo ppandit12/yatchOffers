@@ -548,6 +548,9 @@ function Assessment() {
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error("Request failed");
+      window.fbq?.("track", "Lead");
+      window.fbq?.("track", "SubmitApplication");
+      window.fbq?.("track", "Schedule");
       toast.success("Thanks! Our team will reach out within 24 hours with your personalized recommendation.");
       form.reset();
     } catch {
