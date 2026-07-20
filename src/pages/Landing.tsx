@@ -52,9 +52,11 @@ function Nav() {
           }`}
         >
           <a href="#top" className="flex items-center gap-2">
-            <div className="grid size-9 place-items-center rounded-xl gradient-brand text-white shadow-glow">
-              <Anchor className="size-5" />
-            </div>
+            <img
+              src="/kyptronixllp_logo.jpg"
+              alt="Kyptronix LLP"
+              className="size-9 rounded-xl object-cover shadow-glow"
+            />
             <span className="text-lg font-bold tracking-tight text-navy">
               Kyptronix<span className="text-accent">.</span>
             </span>
@@ -756,7 +758,11 @@ function Footer() {
         <div className="grid gap-10 md:grid-cols-4">
           <div>
             <div className="flex items-center gap-2">
-              <div className="grid size-9 place-items-center rounded-xl gradient-brand text-white"><Anchor className="size-5" /></div>
+              <img
+                src="/kyptronixllp_logo.jpg"
+                alt="Kyptronix LLP"
+                className="size-9 rounded-xl object-cover"
+              />
               <span className="text-lg font-bold text-navy">Kyptronix<span className="text-accent">.</span></span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
